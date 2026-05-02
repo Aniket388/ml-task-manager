@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-slate-100 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 min-h-screen;
+}
+
+.glass {
+  @apply bg-white/10 border border-white/20 backdrop-blur-md shadow-glass;
+}
